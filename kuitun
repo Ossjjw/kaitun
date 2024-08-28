@@ -1,0 +1,20 @@
+_G.Team = "Marine"
+_G.MainSettings =  {
+['CloseUI'] = true, 
+['AFKCheck'] = 300, 
+["LockFruitsRaid"] = {
+[1] = "Dough-Dough",
+[2] = "Dragon-Dragon",
+[3] = "Venom-Venom",
+[4] = "Buddha-Buddha",
+[5] = "Leonard-Leopard",
+[6] = "Magma-Magma",
+[7] = "Spirit- Spirit",
+[8] = "Love-Love",
+[9] = "Blizzard-Blizzard",
+[10] = "", }
+}
+getgenv().Key = "MARU-I84E-30NL-7OQUT-79SL9-WPHTP"
+getgenv().id = "975692227026255882"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
